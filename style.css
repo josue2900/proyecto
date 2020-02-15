@@ -1,0 +1,122 @@
+body{
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1{font-size: 66px; font-weight: 600;line-height: 80px;}
+
+ h2{ font-size: 40px; margin-bottom: 30px;}
+p{
+  font-size: 22px;
+  color: #424141;
+  line-heigth: 1.8;
+  margin-bottom: 0;
+}
+.p1{
+  font-size: 22px;
+  color: #ffffff;
+  line-heigth: 1.8;
+  margin-bottom: 0;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+section{
+  padding: 120px 0;
+}
+
+.topmargin-xs{ margin-top: 15px; }
+.topmargin-sm{ margin-top: 30px; }
+.topmargin-lg{ margin-top: 60px; }
+
+.btn{
+  font-size: 14px;
+  padding: 15px 26px;
+  min-width: 160px;
+  border-radius: 2px; 
+  display: inline-block;
+}
+.btn-light{
+  background-color: #ffffff;
+  color: #1a1a1a;
+  border: #ffffff;
+}
+.navbar{
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  min-height: 50px;
+}
+.nav-link{
+  color: #1a1a1a;
+}
+.nav-link:hover{
+color: #1a1a1a;
+}
+.logo{
+  min-width: 40px;
+  max-height: 40px;
+  background-color: transparent;
+}
+
+#hero{
+  background-image: url('./img/Home-hero3.png');
+  background-size: cover;
+  padding-top: 90px;
+  min-height: 700px;
+  color: #ffffff;
+}
+.content-center{
+  max-width: 800px;
+  margin: 0 auto 60px auto;
+  text-align: center;
+}
+
+.portfolio-container{
+  position: relative;
+  overflow: hidden;
+  margin: 10px 0;
+  border-radius: 2px;
+}
+
+.portfolio-container img{
+  -moz-transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.portfolio-container:hover img {
+  -moz-transition: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.portfolio-details{
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  z-index: 9000;
+}
+
+.portfolio-details h2{
+  margin-bottom: 0px;
+}
+
+.portfolio-details a h2, .portfolio-details a p {
+  color: #ffffff;
+}
+
+.bg-dark{background-color: #1a1a1a !important;}
+
+#footer{
+padding: 80px 0;
+text-align: center;
+color: #ffffff;
+}
+#footer p {
+  color: #ffffff;
+
+}
+#footer p:hover{
+  color: #ffffff;
+}
